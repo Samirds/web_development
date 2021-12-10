@@ -1,0 +1,24 @@
+/*tag{
+	property:value;
+}*/
+/* this is the amin architecture of css*/
+
+
+h1{
+	color: green;
+}
+
+/* we get the rgb values by using the color picker in google search box*/
+li{
+	color: rgb(49, 173, 173);
+}
+
+/*  using color by its # code by same google color picker */
+p{
+	color: #ff9999
+}
+
+/*rgba is basically rgb with alpha, which means transparent 4th parameter depicts the alpha value */
+h4{
+	color: rgba(49, 173, 173, 0.4);
+}

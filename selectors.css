@@ -1,0 +1,35 @@
+.first{
+	color: green;
+}
+.second{
+	background-color: blue;
+}
+
+#para4{
+	color: red;
+	text-decoration: underline;
+}
+
+/**{
+	color: gray
+}
+this will affect on each and every layer*/
+
+
+/*h3 + ul this means ul near(adjasent) h3 has to be bordered*/
+h3 + ul {
+	border: 3px dotted green;
+}
+
+
+/*this is used to give all hyperlinks to same colors*/
+/*li a{
+	color: orange;
+}
+*/
+
+/*this is used for give specific hyperlinks to differnet color*/
+li a[href="https://www.FaceBook.com"]{
+	color: red;
+	border:1px dotted black;
+}

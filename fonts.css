@@ -1,0 +1,14 @@
+h1{
+	font-family: cursive;
+}
+
+p{
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+#fist{
+	font-family: 'Dancing Script', cursive;
+}

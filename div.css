@@ -1,0 +1,25 @@
+body{
+	background-color: green;
+}
+
+/* we can use img as back ground */
+body{
+	background: url(https://qph.fs.quoracdn.net/main-qimg-ad2e0a65df473c4af55ad8c9699bbfd8);
+	background-repeat: no-repeat;
+}
+
+div{
+	background-color: blue;
+	border: red;
+	border-width: thick;
+	border-style: dotted;
+}
+
+P{
+	color: white;
+}
+
+span{
+	background: white;
+	color: black
+}

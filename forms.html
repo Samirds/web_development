@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forms</title>
+</head>
+<body>
+
+	<form>
+		<h1>Log In Form</h1>
+		<h1>Please Enter Your mail and password</h1>
+		<!-- we use input as to fill box name is used for variable
+			and as well as button also if type is submit-->
+		<input type="email" name="usermail" value="Email do">
+		<input type="password" name="password" value="">
+		<input type="submit" name="">
+		<input type="submit" name="" value="Hadd be">
+	</form>
+
+	<br>
+	<!-- br is for break  or it gives the spaces between two line
+		we use label is for take input in one line
+		placeholder is for suggestion -->
+
+	<form>
+		<label>
+			Enter Text:
+			<input type="text" name="" placeholder="Abe Nam dal apna">
+		</label>
+	</form>
+
+
+	<br>
+
+	<!-- This is the new trend to make label and try to use it as possible
+		we use required filed by using required-->
+	<form>
+		<label for="userinput">Enter the value:</label>
+		<input id="userinput" type="text" name="" placeholder="new way to create lable">
+		
+	</form>
+
+	<br>
+
+	<form>
+		<label for="notRequired">Mandetory to Fill</label>
+		<input type="text" name="" placeholder="Abe gandu jata kaha hai" required="">
+		<input type="submit" name="">
+	</form>
+
+	<!-- making radio button
+		we have to give the same name inside the name tag 
+			othrewise both will Select-->
+	<form method="get">
+		<h4>Select Gender</h4>
+		<label for="gender_male"> Male</label>
+		<input id="gender_male" type="radio" name="gender">
+
+		<label for="gender_female"> Female</label>
+		<input id="gender_female" type="radio" name="gender">
+	</form>
+
+	<!-- Making DropDown Menu and textarea for taking long text
+			for dropdown we use option 
+				for report or feedback box we use textarea -->
+	<form method="get">
+		<h1>Abe mujhe rating kar</h1>
+		<select name="stars">
+			<option value="10">Jabardast</option>
+			<option value="0">Isme Tema Ghata</option>
+		</select>
+
+		<P>Abe apna decision bata jaldi</P>
+		<textarea name="name" rows="8" cols="80"></textarea>
+		<input type="submit" name="" value="achha bachchha">
+	
+	</form>
+
+</body>
+</html>
